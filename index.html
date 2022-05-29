@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Game</title>
+	<script type="text/javascript" src="inputs/input.js"></script>
+	<script type="text/javascript" src="inputs/pcinput.js"></script>
+	<script type="text/javascript" src="gamemods/gamemode.js"></script>
+	<script type="text/javascript" src="gamemods/infinitemode.js"></script>
+	<script type="text/javascript" src="inventory.js"></script>
+	<script type="text/javascript" src="actors/actors.js"></script>
+	<script type="text/javascript" src="actors/player.js"></script>
+	<script type="text/javascript" src="actors/revenant.js"></script>
+	<script type="text/javascript" src="actors/hellknight.js"></script>
+	<script type="text/javascript" src="actors/lostsoul.js"></script>
+	<script type="text/javascript" src="actors/cacodemon.js"></script>
+	<script type="text/javascript" src="actors/demon.js"></script>
+	<script type="text/javascript" src="actors/kurica.js"></script>
+	<script type="text/javascript" src="actors/doors.js"></script>
+	<script type="text/javascript" src="actors/door_activators.js"></script>
+	<script type="text/javascript" src="actors/hitscanners.js"></script>
+	<script type="text/javascript" src="actors/pickups/pickup.js"></script>
+	<script type="text/javascript" src="actors/pickups/med.js"></script>
+	<script type="text/javascript" src="actors/pickups/ammo.js"></script>
+	<script type="text/javascript" src="actors/pickups/weap.js"></script>
+	<script type="text/javascript" src="actors/pickups/armor.js"></script>
+	<script type="text/javascript" src="qtree.js"></script>
+	<script type="text/javascript" src="collisions.js"></script>
+	<script type="text/javascript" src="res.json"></script>
+	<script type="text/javascript" src="weapons.js"></script>
+	<script type="text/javascript" src="hud.js"></script>
+	<!-- LEVELS -->
+	<script type="text/javascript" src="levels/e1m1.json"></script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+<div style="position: relative;">
+	<canvas id="static" style="display: block; background: url(GRASS2.png);  position: absolute; left: 0; top: 0; z-index: 0;">meh2</canvas>
+	<canvas id="field" style="display: block; position: absolute; left: 0; top: 0; z-index: 1; cursor: none;">meh</canvas>
+	<canvas id="hud" style="display: block; position: absolute; left: 0; top: 0; z-index: 2; cursor: none;">meh</canvas>
+<!-- background: url(GRASS2.png); -->
+	<!-- <div id="hud">
+		<div style="display: flex; position: fixed; bottom: 0; left: 0;  width: 30%; height: 15%;">
+			<img id="health_icon" src="odobryayu.jpg" style="width: 20%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="health_value1" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="health_value2" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="health_value3" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="armor_icon" src="odobryayu.jpg" style="width: 20%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="armor_value1" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="armor_value2" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+			<img id="armor_value3" src="odobryayu.jpg" style="width: 10%; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+		</div>
+		<div style="display: flex; flex-direction: column; align-items: flex-end; position: fixed; bottom: 0; right: 0;  width: 30%; height: 15%;">
+			<img id="weapon_icon" src="odobryayu.jpg" style="width: 95%; height: 50%">
+			<div style="display: flex; justify-content: flex-end;">
+				<img id="ammo_icon" src="odobryayu.jpg" style="width: 50%">
+				<img id="ammo_value1" src="odobryayu.jpg" style="width: 15%">
+				<img id="ammo_value2" src="odobryayu.jpg" style="width: 15%">
+				<img id="ammo_value3" src="odobryayu.jpg" style="width: 15%">
+			</div>
+		</div>
+	</div> -->
+</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

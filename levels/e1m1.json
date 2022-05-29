@@ -1,0 +1,24 @@
+EOneMOne =
+{
+	"level":
+	{
+		"width":250,
+		"height":250,
+		"startOffsetX":0,
+		"startOffsetY":0,
+		"playerStartX": 50,
+		"playerStartY": 50
+	},
+	"walls" :
+	[
+		//
+	],
+	"enemies":
+	[
+		//
+	],
+	"powerups":
+	[
+		//
+	]
+}
